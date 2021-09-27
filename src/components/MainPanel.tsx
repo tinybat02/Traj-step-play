@@ -53,7 +53,6 @@ export class MainPanel extends PureComponent<Props> {
   };
 
   componentDidMount() {
-    console.log('log ', this.props.data);
     const { zoom_level, center_lon, center_lat } = this.props.options;
 
     const carto = createTile('https://{1-4}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png');
