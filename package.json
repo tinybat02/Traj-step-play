@@ -1,0 +1,27 @@
+{
+  "name": "traj-step-tracking-play",
+  "version": "1.0.0",
+  "description": "Trajectory-step-play",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Nam Le",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next",
+    "tslib": "^2.3.1"
+  },
+  "dependencies": {
+    "@types/nanoid": "^2.1.0",
+    "@types/ol": "^6.1.0",
+    "nanoid": "^2.1.8",
+    "ol": "^6.2.1",
+    "react-compound-slider": "^3.3.1",
+    "react-search-box": "^2.0.2"
+  }
+}
